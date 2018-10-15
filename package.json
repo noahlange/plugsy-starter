@@ -1,0 +1,23 @@
+{
+  "name": "plugsy-starter",
+  "author": "Noah Lange <noahrlange@gmail.com>",
+  "license": "MIT",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "webpack --mode none",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "plugsy": "noahlange/plugsy"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^4.8.1",
+    "terser-webpack-plugin": "^1.1.0",
+    "ts-loader": "^5.2.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
